@@ -2,8 +2,6 @@ syntax = "proto3";
 package milvus.proto.schema;
 option go_package = "github.com/milvus-io/milvus-proto/go-api/v2/schemapb";
 
-import "common.proto";
-
 service Tokenizer {
   rpc Tokenize (TokenizationRequest) returns (TokenizationResponse) {}
 }
