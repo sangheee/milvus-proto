@@ -1,5 +1,5 @@
 syntax = "proto3";
-package milvus.proto.schema;
+package milvus.proto.tokenizer;
 option go_package = "github.com/milvus-io/milvus-proto/go-api/v2/schemapb";
 
 service Tokenizer {
