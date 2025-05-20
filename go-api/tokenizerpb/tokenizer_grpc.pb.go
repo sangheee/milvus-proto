@@ -19,7 +19,7 @@ import (
 const _ = grpc.SupportPackageIsVersion7
 
 const (
-	Tokenizer_Tokenize_FullMethodName = "/milvus.proto.schema.Tokenizer/Tokenize"
+	Tokenizer_Tokenize_FullMethodName = "/milvus.proto.tokenizer.Tokenizer/Tokenize"
 )
 
 // TokenizerClient is the client API for Tokenizer service.
@@ -94,7 +94,7 @@ func _Tokenizer_Tokenize_Handler(srv interface{}, ctx context.Context, dec func(
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var Tokenizer_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "milvus.proto.schema.Tokenizer",
+	ServiceName: "milvus.proto.tokenizer.Tokenizer",
 	HandlerType: (*TokenizerServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
